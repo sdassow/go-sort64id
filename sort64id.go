@@ -1,4 +1,4 @@
-// Package go-sort64id implements a sortable Base64 universally unique identifier format.
+// Package sort64id implements a sortable Base64 universally unique identifier format.
 //
 package sort64id
 
