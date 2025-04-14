@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://pkg.go.dev/github.com/sdassow/go-sort64id?tab=doc" title="Go API Reference" rel="nofollow"><img src="https://img.shields.io/badge/go-documentation-blue.svg?style=flat" alt="Go API Reference"></a>
+</p>
+
 # sort64id - Sortable Base64 Universally Unique Identifiers
 
 TL;DR: short, sortable UUIDs that work as identifiers in CSS, XML, URLs, and more.
