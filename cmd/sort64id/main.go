@@ -1,3 +1,20 @@
+/*
+sort64id is a command line tool to generate and check sort64ids.
+
+Usage:
+
+  sort64id [-c] [-n number] [-v version] [ns name | [uuid ...]]
+
+Flags:
+
+  -c
+      Checking mode, verifies given UUID(s).
+  -n number
+      Number of IDs to generate.
+  -v version
+      UUID version to use to generate ID.
+
+*/
 package main
 
 import (
