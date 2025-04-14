@@ -1,4 +1,4 @@
-module go-sort64id
+module github.com/sdassow/go-sort64id
 
 go 1.18
 

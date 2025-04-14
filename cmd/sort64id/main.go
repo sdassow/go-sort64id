@@ -6,9 +6,8 @@ import (
 	"os"
 	"path"
 
-	"go-sort64id"
-
 	"github.com/gofrs/uuid"
+	"github.com/sdassow/go-sort64id"
 )
 
 func newId(version int) (uuid.UUID, error) {
