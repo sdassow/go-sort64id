@@ -13,7 +13,7 @@ To get three UUID V7 ids:
 
 ## Installation
 
-    $ go install github.com/sdassow/go-sort64id/cmd/sort64id@latest
+    go install github.com/sdassow/go-sort64id/cmd/sort64id@latest
 
 ## Encoding
 
