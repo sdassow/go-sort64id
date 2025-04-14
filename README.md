@@ -4,7 +4,7 @@ TL;DR: short, sortable UUIDs that work as identifiers in CSS, XML, URLs, and mor
 
 ## Example
 
-To get three UUID V7 ids:
+To get three UUID V4 ids:
 
     $ sort64id -n 3 -v 4
     LCVinfjYJ6dfvhanqnTO1Q
