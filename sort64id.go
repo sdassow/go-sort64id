@@ -1,3 +1,5 @@
+// Package go-sort64id implements a sortable Base64 universally unique identifier format.
+//
 package sort64id
 
 import (
@@ -21,6 +23,7 @@ var brpad = []byte{'\xFF'}
 // set up base64 encoder with alternative character setup
 var sort64idEncoder = base64.NewEncoding(charset)
 
+// FromString takes a sort64id string and returns a uuid.UUID and an error should one have occured.
 func FromString(str string) (uuid.UUID, error) {
 	if len(str) != 22 {
 		return uuid.FromString(str)
@@ -32,6 +35,7 @@ func FromString(str string) (uuid.UUID, error) {
 	return uuid.FromBytes(bin[1:17])
 }
 
+// ToString takes a uuid.UUID and returns a sort64id formatted string version.
 func ToString(id uuid.UUID) string {
 	bin := append(append(blpad, id.Bytes()...), brpad...)
 	b64 := sort64idEncoder.EncodeToString(bin)
