@@ -1,4 +1,4 @@
-module sort64id
+module go-sort64id
 
 go 1.18
 
