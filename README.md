@@ -8,14 +8,14 @@ TL;DR: short, sortable UUIDs that work as identifiers in CSS, XML, URLs, and mor
 
 ## Example
 
-To get three UUID V4 ids on the command line:
+Getting three UUID V6 ids on the command line:
 
-    $ sort64id -n 3 -v 4
-    LCVinfjYJ6dfvhanqnTO1Q
-    QTVYh709oHFbdZAc-qwDzj
-    JH7x-aBo3PmftfFfZp85sQ
+    $ sort64id -n 3
+    Gw0ZwwEr5oZirARWFjofS6
+    Gw0ZwwEr5tiir96Swm7wGA
+    Gw0ZwwEr5uBir8xmEkuutz
 
-To convert a UUID in code:
+Converting a UUID in code:
     
     import (
     	"fmt"
